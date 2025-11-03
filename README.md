@@ -1,20 +1,59 @@
-# EV Battery RUL Prediction 🔋⚡
+# EV Battery Remaining Useful Life (RUL) Prediction 🔋⚡
 
-Machine Learning + Data Analysis project for predicting Electric Vehicle Battery Remaining Useful Life (RUL) using NASA battery aging dataset.
+A Machine Learning project to detect early signs of battery degradation using 
+internal resistance (Re, Rct) measurements and predict Remaining Useful Life (RUL).
 
-## ✅ Project Progress
+📌 Focus:
+✔ EV Battery Data Analytics  
+✔ Early detection of degradation  
+✔ Predictive maintenance using ML  
 
-- [x] Repository created
-- [ ] Dataset downloaded
-- [ ] Data exploration started
-- [ ] Feature engineering completed
-- [ ] ML model trained & evaluated
-- [ ] Business insights documented
-- [ ] FastAPI + Web App (future upgrade)
-- [ ] Deployment online
+---
 
-## 📌 Tech Stack
+## 🎯 Objective
 
-- Python, Pandas, NumPy, Scikit-Learn
-- Matplotlib, Seaborn (later)
-- HTML/CSS + FastAPI (future web app)
+Identify battery health decline *before* capacity drops significantly,
+using resistance features as early degradation indicators.
+
+This helps improve:
+🔹 Safety  
+🔹 Battery lifetime  
+🔹 Warranty cost savings  
+
+---
+
+## 📂 Project Structure
+
+EV-Battery-RUL  
+ ┗ data/  
+    ┗ raw/   → Original dataset files  
+ ┗ notebooks/ → Data Exploration + Modeling  
+ ┗ src/ → Scripts (later)  
+
+---
+
+## 🛠 Tech Stack
+
+Python, Pandas, NumPy  
+Matplotlib, Seaborn  
+Scikit-Learn  
+
+---
+
+## 🧪 Current Progress
+
+✅ Project setup complete  
+📍 Day 1 → Data loading + basic exploration  
+
+---
+
+## 🔮 Upcoming Milestones
+
+✔ Feature analysis → Re, Rct trends  
+✔ ML Model for RUL prediction  
+✔ Visual analytics dashboard  
+✔ Deployment (FastAPI + UI)
+
+---
+
+📌 Status: In-progress ✅  
