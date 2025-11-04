@@ -1,59 +1,13 @@
-# EV Battery Remaining Useful Life (RUL) Prediction 🔋⚡
+# Battery Health Prediction Project
 
-A Machine Learning project to detect early signs of battery degradation using 
-internal resistance (Re, Rct) measurements and predict Remaining Useful Life (RUL).
+This project focuses on analyzing lithium-ion battery degradation using Resistance (Re), Charge Transfer Resistance (Rct), Capacity, and Test Cycle data.
 
-📌 Focus:
-✔ EV Battery Data Analytics  
-✔ Early detection of degradation  
-✔ Predictive maintenance using ML  
+### ✅ Phase 1 Completed:
+- We studied Battery ID 6 in detail
+- Observed that both Re and Rct increase as cycles increase
+- Capacity decreases over the cycle life
+- Rct shows stronger early warning signs of degradation
 
----
-
-## 🎯 Objective
-
-Identify battery health decline *before* capacity drops significantly,
-using resistance features as early degradation indicators.
-
-This helps improve:
-🔹 Safety  
-🔹 Battery lifetime  
-🔹 Warranty cost savings  
-
----
-
-## 📂 Project Structure
-
-EV-Battery-RUL  
- ┗ data/  
-    ┗ raw/   → Original dataset files  
- ┗ notebooks/ → Data Exploration + Modeling  
- ┗ src/ → Scripts (later)  
-
----
-
-## 🛠 Tech Stack
-
-Python, Pandas, NumPy  
-Matplotlib, Seaborn  
-Scikit-Learn  
-
----
-
-## 🧪 Current Progress
-
-✅ Project setup complete  
-📍 Day 1 → Data loading + basic exploration  
-
----
-
-## 🔮 Upcoming Milestones
-
-✔ Feature analysis → Re, Rct trends  
-✔ ML Model for RUL prediction  
-✔ Visual analytics dashboard  
-✔ Deployment (FastAPI + UI)
-
----
-
-📌 Status: In-progress ✅  
+### 📌 Next Step (Phase 2):
+- Check correlations between features
+- Select the most important inputs for machine learning prediction
